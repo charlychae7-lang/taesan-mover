@@ -1,8 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
-<rect width="512" height="512" rx="0" fill="#0B4AA2"/>
-<g transform="translate(256 256) scale(3.4) translate(-61 -67)">
-<path d="M52 96 L86 44 L118 96 Z" fill="#7FA9EA"/>
-<path d="M4 96 L58 14 L112 96 Z" fill="#08285C"/>
-<path d="M58 14 L74.5 39 L66 35 L58 43 L50 35 L41.5 39 Z" fill="#FFFFFF"/>
-<path d="M4 104 H96 L116 112 L96 120 H4 Z" fill="#FFC400"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1B5A93"/><stop offset="1" stop-color="#0A2A4A"/></linearGradient></defs>
+<rect width="512" height="512" fill="url(#bg)"/>
+<g transform="translate(256 262) scale(0.94) translate(-256 -256)">
+  <!-- road -->
+  <rect x="52" y="372" width="408" height="12" rx="6" fill="#FFFFFF" opacity=".28"/>
+  <!-- cargo box -->
+  <rect x="64" y="128" width="248" height="208" rx="18" fill="#FFFFFF"/>
+  <rect x="64" y="304" width="248" height="32" rx="10" fill="#D5DEEE"/>
+  <text x="188" y="254" text-anchor="middle" font-family="Noto Sans CJK KR, Noto Sans CJK JP, sans-serif" font-weight="900" font-size="112" fill="#0E3356" letter-spacing="2">태산</text>
+  <rect x="104" y="276" width="168" height="8" rx="4" fill="#D8431A"/>
+  <!-- cab -->
+  <path d="M322 176 H398 Q412 176 420 188 L456 244 Q462 254 462 266 V318 Q462 336 444 336 H322 Z" fill="#D8431A"/>
+  <path d="M338 192 H392 L430 246 H338 Z" fill="#BFE0FA"/>
+  <rect x="440" y="290" width="22" height="16" rx="5" fill="#FFD34D"/>
+  <!-- wheels -->
+  <g><circle cx="140" cy="342" r="38" fill="#0B1C30"/><circle cx="140" cy="342" r="16" fill="#C9D4E4"/></g>
+  <g><circle cx="388" cy="342" r="38" fill="#0B1C30"/><circle cx="388" cy="342" r="16" fill="#C9D4E4"/></g>
 </g></svg>
